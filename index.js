@@ -1,6 +1,5 @@
-// Code your solution here!
-let myString = 'Algorithm';
-
-myString = myString.substring(0, myString.length - 1) + myString[myString.length - 1];
-
-myString;
+function printString(myString) {
+  console.log(myString[0], myString[1], myString[2], myString[3], myString[4]);
+}
+ 
+printString("pizza");
